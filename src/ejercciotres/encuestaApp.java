@@ -14,7 +14,14 @@ import javax.swing.JSlider;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-
+/**
+ * 
+ * java-full-stack-dev-u19 - ejercciotres - encuestaApp
+ *
+ * @author Jose Antonio González Alcántara
+ * 
+ * Fecha de creación 07/05/2022
+ */
 public class encuestaApp extends JFrame {
 
 	private JPanel contentPane;

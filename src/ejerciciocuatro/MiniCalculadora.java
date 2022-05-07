@@ -1,8 +1,7 @@
 package ejerciciocuatro;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
 
+import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
@@ -13,7 +12,14 @@ import javax.swing.JOptionPane;
 
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-
+/**
+ * 
+ * java-full-stack-dev-u19 - ejerciciocuatro - MiniCalculadora
+ *
+ * @author Jose Antonio González Alcántara
+ * 
+ * Fecha de creación 07/05/2022
+ */
 public class MiniCalculadora extends JFrame {
 
 	private JPanel contentPane;

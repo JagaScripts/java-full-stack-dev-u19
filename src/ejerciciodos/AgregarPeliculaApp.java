@@ -1,15 +1,11 @@
 package ejerciciodos;
 
-import java.awt.BorderLayout;
 import java.awt.EventQueue;
-import java.util.ArrayList;
-import java.util.Iterator;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-import javafx.scene.control.ComboBox;
 
 import javax.swing.JLabel;
 import javax.swing.JTextField;
@@ -17,7 +13,14 @@ import javax.swing.JButton;
 import javax.swing.JComboBox;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-
+/**
+ * 
+ * java-full-stack-dev-u19 - ejerciciodos - AgregarPeliculaApp
+ *
+ * @author Jose Antonio González Alcántara
+ * 
+ * Fecha de creación 07/05/2022
+ */
 public class AgregarPeliculaApp extends JFrame {
 
 	private JPanel contentPane;
