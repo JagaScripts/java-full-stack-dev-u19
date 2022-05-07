@@ -1,20 +1,14 @@
 package ejercciotres;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
-import java.awt.ItemSelectable;
-import java.util.Enumeration;
-import java.util.Iterator;
 
+import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JRadioButton;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
-import javax.swing.AbstractButton;
 import javax.swing.ButtonGroup;
-import javax.swing.ButtonModel;
 import javax.swing.JCheckBox;
 import javax.swing.JSlider;
 import javax.swing.JButton;
@@ -55,6 +49,7 @@ public class encuestaApp extends JFrame {
 		contentPane.setLayout(null);
 		
 		JRadioButton rdbtnNewRadioButton = new JRadioButton("Windows");
+		rdbtnNewRadioButton.setSelected(true);
 		buttonGroup.add(rdbtnNewRadioButton);
 		rdbtnNewRadioButton.setBounds(10, 32, 109, 23);
 		rdbtnNewRadioButton.setActionCommand(rdbtnNewRadioButton.getText());

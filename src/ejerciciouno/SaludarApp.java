@@ -40,6 +40,7 @@ public class SaludarApp extends JFrame {
 	 * Create the frame.
 	 */
 	public SaludarApp() {
+		setResizable(false);
 		setTitle("Saludador");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
